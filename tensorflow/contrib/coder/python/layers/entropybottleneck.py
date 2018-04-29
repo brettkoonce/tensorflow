@@ -677,7 +677,7 @@ class EntropyBottleneck(engine.Layer):
   def visualize(self):
     """Multi-channel visualization of densities as images.
 
-    Creates and returns an image summary visualizing the current probabilty
+    Creates and returns an image summary visualizing the current probability
     density estimates. The image contains one row for each channel. Within each
     row, the pixel intensities are proportional to probability values, and each
     row is centered on the median of the corresponding distribution.
